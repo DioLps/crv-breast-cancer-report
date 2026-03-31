@@ -1073,9 +1073,33 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .section-header.with-aside {
+    display: block;
+    gap: 12px;
+  }
+
+  .section-title-wrap {
+    max-width: 100%;
+  }
+
   .section-aside {
-    margin-top: 18px;
+    margin-top: 14px;
+    width: 100%;
     flex-basis: auto;
+    padding: 14px 16px;
+  }
+
+  .illustration-aside {
+    gap: 10px;
+  }
+
+  .illustration-frame {
+    min-height: auto;
+    padding: 14px;
+  }
+
+  .illustration-frame img {
+    width: min(70%, 220px);
   }
 
   .flow-card::after {
